@@ -1,0 +1,93 @@
+====================================================================
+  EXECUTIVE SUMMARY  —  Retail Sales Analysis 2023-2024
+  Generated : 2026-06-17 00:09:13
+====================================================================
+
+────────────────────────────────────────────────────────────────────
+  BUSINESS OVERVIEW
+────────────────────────────────────────────────────────────────────
+  Total Revenue       : ₹   76,879,852.63
+  Total Orders        :            3,006
+  Avg Order Value     : ₹       25,575.47
+  Avg Customer Rating :             3.78 / 5.00
+  Date Range          : 2023-01-01  →  2024-12-31
+  Unique Customers    :              435
+
+────────────────────────────────────────────────────────────────────
+  TOP PERFORMERS
+────────────────────────────────────────────────────────────────────
+  Top Region          : South
+  Top Category        : Electronics
+  Top Product         : Smartphone
+
+────────────────────────────────────────────────────────────────────
+  YEAR-OVER-YEAR REVENUE
+────────────────────────────────────────────────────────────────────
+  2023  :  ₹ 38,145,197.28
+  2024  :  ₹ 38,734,655.35
+  YoY Growth  :  +1.5%
+
+────────────────────────────────────────────────────────────────────
+  TOP 5 PRODUCTS BY REVENUE
+────────────────────────────────────────────────────────────────────
+  1. Smartphone                        ₹6,102,829.65
+  2. Laptop                            ₹6,086,171.98
+  3. Smart Watch                       ₹5,661,516.55
+  4. Tablet                            ₹5,581,359.47
+  5. LED Monitor                       ₹4,675,131.98
+
+────────────────────────────────────────────────────────────────────
+  REGIONAL PERFORMANCE
+────────────────────────────────────────────────────────────────────
+  South         Rev=₹ 16,930,923  Orders=710.0  AvgRating=3.79
+  North         Rev=₹ 15,929,113  Orders=562.0  AvgRating=3.79
+  Central       Rev=₹ 15,508,972  Orders=569.0  AvgRating=3.79
+  West          Rev=₹ 14,621,957  Orders=585.0  AvgRating=3.77
+  East          Rev=₹ 13,888,886  Orders=580.0  AvgRating=3.77
+
+────────────────────────────────────────────────────────────────────
+  LOYALTY TIER BREAKDOWN
+────────────────────────────────────────────────────────────────────
+  Gold        Orders=1,333.0  Revenue=₹63,020,706.41
+  Silver      Orders=636.0  Revenue=₹9,703,991.02
+  Bronze      Orders=1,037.0  Revenue=₹4,155,155.20
+
+────────────────────────────────────────────────────────────────────
+  ML SALES FORECASTING RESULTS
+────────────────────────────────────────────────────────────────────
+  Model            : Random Forest Regressor
+  Test MAE         : ₹41,511.96
+  Test RMSE        : ₹73,113.98
+  Test R²          : 0.6196
+  CV R² (mean±std) : 0.4834 ± 0.0875
+
+  3-Month Revenue Forecast:
+    Jan 2025      ₹  571,747.31  (±₹85,762.10)
+    Feb 2025      ₹  506,300.72  (±₹75,945.11)
+    Mar 2025      ₹  552,660.45  (±₹82,899.07)
+
+────────────────────────────────────────────────────────────────────
+  ABC PRODUCT CLASSIFICATION
+────────────────────────────────────────────────────────────────────
+  Tier A  ( 11 products)  —  generates first 70% of revenue
+  Tier B  (  7 products)  —  next 20% of revenue
+  Tier C  ( 30 products)  —  bottom 10% of revenue
+
+────────────────────────────────────────────────────────────────────
+  CUSTOMER INSIGHTS
+────────────────────────────────────────────────────────────────────
+  Total unique customers   : 786
+  Repeat purchase rate     : 92.11%
+  Avg orders per customer  : 3.82
+
+────────────────────────────────────────────────────────────────────
+  ACTIONABLE RECOMMENDATIONS
+────────────────────────────────────────────────────────────────────
+  1. Focus marketing spend on South — highest revenue region.
+  2. Expand Electronics inventory — top-grossing category.
+  3. Review Electronics return rate — typically highest; look at quality control.
+  4. Ramp up inventory in Oct–Dec for festive season Electronics/Clothing surge.
+  5. Launch loyalty upgrade campaign: push Silver customers to Gold tier.
+  6. Introduce personalised discount offers to repeat customers to increase LTV.
+
+====================================================================

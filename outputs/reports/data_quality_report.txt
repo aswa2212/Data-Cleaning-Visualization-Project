@@ -1,0 +1,33 @@
+Generated : 2026-06-17 00:09:13
+
+================================================================
+  DATA QUALITY REPORT  —  Retail Sales Pipeline v2.0
+================================================================
+  Raw shape          : 3,090 rows × 20 columns
+  Raw nulls          : 990
+  Raw duplicates     : 84
+
+  ── Issues Detected & Fixed ────────────────────────────
+  Duplicates removed      : 84
+  Invalid dates replaced  : 12
+  Gender variants fixed   : 863
+  Unknown genders kept    : 0
+  Negative qty corrected  : 25
+  Out-of-range ratings    : 15
+  Whitespace cols cleaned : 11
+  Outliers capped [unit_price]  : 105
+  Imputed [age]  : 150 with median=35.00
+  Imputed [unit_price]  : 60 with median=3276.64
+  Imputed [discount]  : 90 with median=0.05
+  Imputed [customer_rating]  : 223 with median=3.80
+  Imputed [shipping_days]  : 60 with median=5.00
+  Imputed [gender]  : 120 with mode='Female'
+  Imputed [payment_method]  : 120 with mode='UPI'
+  Imputed [region]  : 90 with mode='South'
+  Imputed [city]  : 60 with mode='Bengaluru'
+
+  ── Final State ────────────────────────────────────────
+  Final shape        : 3,006 rows × 24 columns
+  Remaining nulls    : 0
+  Data Quality Score : 69.6 / 100
+================================================================

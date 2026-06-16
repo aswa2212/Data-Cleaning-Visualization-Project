@@ -1,0 +1,132 @@
+====================================================================
+  STATISTICAL ANALYSIS REPORT  —  Retail Sales Dataset
+====================================================================
+
+  1. DESCRIPTIVE STATISTICS
+────────────────────────────────────────────────────────────────────
+                 count      mean   median       std    min        max  skewness  kurtosis
+column                                                                                   
+age               3006     34.47    35.00      9.28  18.00      70.00     0.264    -0.091
+unit_price        3006  13496.79  3276.64  20299.60  30.10   72446.02     1.655     1.560
+discount          3006      0.09     0.05      0.09   0.00       0.25     0.477    -1.230
+total_sales       3006  25575.47  4725.68  46868.49  32.64  362230.09     2.969    10.350
+customer_rating   3006      3.78     3.80      0.66   1.20       5.00    -0.254    -0.054
+quantity          3006      2.09     2.00      1.18   1.00       5.00     0.887    -0.174
+shipping_days     3006      4.95     5.00      1.54   2.00       9.00     0.141    -0.449
+
+  2. NORMALITY TESTS  (Shapiro-Wilk, sample n=500)
+────────────────────────────────────────────────────────────────────
+                 W_stat  p_value normal
+column                                 
+age              0.9849   0.0000     No
+unit_price       0.6949   0.0000     No
+total_sales      0.5923   0.0000     No
+customer_rating  0.9854   0.0001     No
+discount         0.8512   0.0000     No
+
+  3. ONE-WAY ANOVA  —  Total Sales across Regions
+────────────────────────────────────────────────────────────────────
+  F-statistic  : 1.1125
+  p-value      : 0.3487
+  Significant  : NO — no significant difference
+  Regional mean sales:
+    North         ₹   28,343.62
+    Central       ₹   27,256.54
+    West          ₹   24,994.80
+    East          ₹   23,946.36
+    South         ₹   23,846.37
+
+  4. CHI-SQUARE TEST  —  Payment Method × Gender
+────────────────────────────────────────────────────────────────────
+  χ² statistic      : 2.2552
+  p-value           : 0.6889
+  Degrees of freedom: 4
+  Significant       : NO — independent at α=0.05
+
+  5. PEARSON CORRELATION MATRIX  (r values)
+────────────────────────────────────────────────────────────────────
+                   age  unit_price  discount  total_sales  customer_rating  quantity  shipping_days
+age              1.000      -0.010     0.048       -0.022           -0.003    -0.022          0.040
+unit_price      -0.010       1.000     0.009        0.825           -0.008     0.001          0.243
+discount         0.048       0.009     1.000       -0.053            0.031    -0.001         -0.006
+total_sales     -0.022       0.825    -0.053        1.000           -0.025     0.309          0.212
+customer_rating -0.003      -0.008     0.031       -0.025            1.000    -0.029         -0.020
+quantity        -0.022       0.001    -0.001        0.309           -0.029     1.000          0.027
+shipping_days    0.040       0.243    -0.006        0.212           -0.020     0.027          1.000
+
+  6. ABC PRODUCT ANALYSIS
+────────────────────────────────────────────────────────────────────
+  Tier A  (top 70% revenue)  :  11 products
+  Tier B  (next 20%)  :  7 products
+  Tier C  (bottom 10%)  :  30 products
+
+             product    revenue  cum_share abc_tier
+          Smartphone 6102829.65     0.0794        A
+              Laptop 6086171.98     0.1585        A
+         Smart Watch 5661516.55     0.2322        A
+              Tablet 5581359.47     0.3048        A
+         LED Monitor 4675131.98     0.3656        A
+          Power Bank 4508140.82     0.4242        A
+   Bluetooth Speaker 4210023.91     0.4790        A
+            Wardrobe 4135915.65     0.5328        A
+          Headphones 4096677.32     0.5861        A
+           Bookshelf 3870783.89     0.6364        A
+                Sofa 3739547.29     0.6851        A
+        Office Chair 3527901.63     0.7310        B
+        Coffee Table 3492456.61     0.7764        B
+         Study Table 3289849.17     0.8192        B
+          Dining Set 2861577.28     0.8564        B
+           Bed Frame 2109156.24     0.8838        B
+           Jump Rope  616966.54     0.8919        B
+         Cricket Bat  609849.64     0.8998        B
+    Data Science 101  572602.40     0.9072        C
+      Cycling Gloves  567132.07     0.9146        C
+       Running Shoes  523177.57     0.9214        C
+            Yoga Mat  513702.13     0.9281        C
+ Python Crash Course  467716.68     0.9342        C
+             T-Shirt  454292.60     0.9401        C
+           Dumbbells  405900.13     0.9454        C
+            Sneakers  397604.95     0.9505        C
+            Football  390376.16     0.9556        C
+              Jacket  372456.30     0.9605        C
+        Formal Shirt  352453.67     0.9651        C
+    Badminton Racket  346667.41     0.9696        C
+               Kurti  332854.85     0.9739        C
+               Jeans  279145.44     0.9775        C
+       Sports Shorts  272059.99     0.9811        C
+               Dress  230161.14     0.9841        C
+    History of India  176782.84     0.9864        C
+         Atta (10kg)  144192.97     0.9882        C
+        Pulses (1kg)  113580.91     0.9897        C
+       Fiction Novel  103498.74     0.9911        C
+      Business Guide  102084.95     0.9924        C
+           Self Help   99379.91     0.9937        C
+Machine Learning A-Z   89446.94     0.9948        C
+          Clean Code   78881.30     0.9959        C
+          Ghee 500ml   71275.87     0.9968        C
+         Sugar (1kg)   56667.62     0.9975        C
+          Rice (5kg)   56424.41     0.9983        C
+         Cooking Oil   53230.07     0.9990        C
+            Biscuits   42215.61     0.9995        C
+          Tea Powder   38031.38     1.0000        C
+
+  7. REPEAT CUSTOMER ANALYSIS
+────────────────────────────────────────────────────────────────────
+  total_customers              : 786
+  repeat_customers             : 724
+  repeat_rate_pct              : 92.11
+  avg_orders                   : 3.82
+  max_orders                   : 10
+
+  8. RETURN RATE BY CATEGORY
+────────────────────────────────────────────────────────────────────
+                  return_count  total_orders  return_rate_pct
+product_category                                             
+Electronics                 76           478            15.90
+Groceries                   32           498             6.43
+Books                       29           506             5.73
+Furniture                   30           532             5.64
+Sports                      25           482             5.19
+Clothing                    19           510             3.73
+
+====================================================================
