@@ -180,5 +180,5 @@ D. ML Time-Series Forecasting
     preserving temporal ordering.
 
 ================================================================================
-                           END OF FILE — HAPPY LEARNING!
+                           END OF FILE 
 ================================================================================
