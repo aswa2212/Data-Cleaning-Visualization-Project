@@ -167,12 +167,3 @@ To run the unit tests for the data cleaning pipeline:
 python -m unittest tests/test_cleaner.py
 ```
 All tests are implemented using Python's standard `unittest` library and require zero configuration.
-
----
-
-## 🤝 Contributing
-1. Fork the Project.
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the Branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
