@@ -1,4 +1,4 @@
-# 🛍️ Retail Sales Pipeline & ML Forecasting Engine — v2.0
+# Retail Sales Pipeline & ML Forecasting Engine — v2.0
 
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-v1.3%2B-orange.svg)](https://scikit-learn.org/)
@@ -87,7 +87,7 @@ A production-grade, configuration-driven data engineering and machine learning p
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Install Dependencies
 Clone the repository and install all dependencies listed in `requirements.txt`:
@@ -112,7 +112,7 @@ This single command runs the entire workflow synchronously:
 
 ---
 
-## 🧹 10-Step Data Cleaning Pipeline
+## 10-Step Data Cleaning Pipeline
 
 The `data_cleaner.py` script ensures that data is clean, validated, and formatted before modeling:
 
